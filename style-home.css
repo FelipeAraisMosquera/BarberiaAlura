@@ -1,0 +1,68 @@
+
+head{
+   display: inline; 
+}
+.titulo-prinsipal{
+    padding-left: 20px;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto; /*alinear Delegamos para que el navegador haga la cuenta al calcular la largura restante, dividir entre dos y agregar la mitad en cada uno de los lados.*/
+}
+nav {
+    position: absolute;
+    top: 9px;
+    right: 20px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px/*margen de cada lado*/
+}
+nav a{
+    text-transform: uppercase;/*mayusculas*/
+    color: #000000;
+    font-weight: bold;/*negrilla*/
+    font-size: 22px; /*tamaño*/
+    text-decoration: none;
+}
+#banner{/*se agregan los id, el identificador no permite reutilizar el estilo*/
+    width: 100%;
+}
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+}
+em strong{
+    color: red;
+}
+#mision{
+    font-size: 20px;
+}
+.diferenciales{
+    background: #ffffff;
+    padding: 30px;/*margen del bloque*/
+}
+#esa{
+    text-align: center;
+}
+.titulo-centralizado{
+    text-align: center;
+}
+.items{/*se agregan las clases, una clase permite reutilizar el estilo*/
+    font-style: italic;
+}
+ul{
+    display: inline-block;/*El tamaño puede ser ajustado, tanto en la largura, como en la altura.*/
+    vertical-align: top;
+    width: 25%;
+    margin-right: 15%;
+}
+.imagenDiferencial{
+    width: 25%;
+}
+
